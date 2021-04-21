@@ -19,7 +19,7 @@ namespace TestProjectForWeatherAPI
         public double wind_direction { get; set; }
         public double air_pressure { get; set; }
         public int humidity { get; set; }
-        public double visibility { get; set; }
+        public double? visibility { get; set; }
         public int predictability { get; set; }
 
     }
